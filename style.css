@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@400;500;700&family=Oswald:wght@200;400;600&family=Playball&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@500;700&family=Roboto:wght@100;400;700;900&display=swap');
+.image{
+    width: 100px;
+    height: 100px;
+    /* background-color: rebeccapurple;
+    border-radius: 50%; */
+}
+body{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 40%, rgba(45,253,90,1) 69%);
+    height: 100vh;
+        /* backdrop-filter: blur(10px); */
+}
+ 
+.container{
+        width: 90%;
+        max-width: 470px;
+        margin: 100px auto 0;
+        /* border: 1px solid black; */
+        padding: 40px 35px;
+        text-align: center;
+        /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 40%, rgba(45,253,90,1) 69%); */
+    /* background-color: #fff; */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+    border-radius: 10px;
+    
+ }
+ form{
+    
+ }
+ form input[type='text']{
+    background: none;
+    border: none;
+    outline: none;
+    width: 75%;
+    font-size: 18px ;
+ }
+ form button{
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: grey;
+    cursor: pointer;
+ }
+ .othWeather{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: none;
+ }
+ .weather{
+   display: none;
+ }
